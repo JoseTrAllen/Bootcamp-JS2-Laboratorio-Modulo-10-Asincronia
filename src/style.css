@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(243, 243, 243);
+}
+
+header {
+  background-color: rgba(0, 198, 82, 0.836);
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 25px;
+  
+}
+
+h1 {
+  color: rgba(0, 0, 0, 0.84);
+  font-family: "Bangers";
+  font-size: 2.5rem;
+  letter-spacing: 2px;
+}
+
+h2 {
+  text-align: center;
+  font-family: "Bangers";
+  letter-spacing: 1px;
+  padding: 10px;
+}
+
+p {
+  letter-spacing: 1px;
+}
+
+input {
+  font-family: "Comic Neue";
+  padding: 5px 15px;
+  border: none;
+  border-radius: 8px;
+}
+
+button {
+  background-color: rgb(10, 110, 250);
+  font-family: "Comic Neue";
+  color: white;
+  padding: 5px 15px;
+  border: none;
+  border-radius: 8px;
+}
+
+button:hover {
+  cursor: pointer;
+  transform: scale(1.030);
+}
+
+button:active {
+  transform: scale(0.900);
+}
+
+#container {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: baseline;
+  flex-wrap: wrap;
+  max-width: 1260px;
+  gap: 10px;
+  padding: 20px;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+  margin: 20px;
+  max-width: 250px;
+  font-family: "Bangers";
+}
+
+.card:hover {
+  transform: scale(1.200);
+}
+
+img {
+  height: 350px;
+  border-radius: 8px;
+  box-shadow: 5px 5px 10px  rgba(9, 9, 9, 0.467);
+  margin-bottom: 20px;
+}
