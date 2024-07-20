@@ -1,0 +1,3 @@
+- Enciclopedia de los personajes de Mortadelo y Filemón.
+
+-Se accede a la API mediante Axios y obtenemos la info que nos interesa para pintarla en el html.

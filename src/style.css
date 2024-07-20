@@ -49,22 +49,27 @@ input {
   border-radius: 8px;
 }
 
-button {
-  background-color: rgb(10, 110, 250);
-  font-family: "Comic Neue";
+.filter-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.material-symbols-outlined {
   color: white;
-  padding: 5px 15px;
-  border: none;
-  border-radius: 8px;
 }
 
-button:hover {
+.material-symbols-outlined:hover {
   cursor: pointer;
-  transform: scale(1.030);
+  color: rgb(10, 110, 250);
+  transform: scale(1.300);
 }
 
-button:active {
-  transform: scale(0.900);
+.material-symbols-outlined:active {
+  color: rgb(0, 255, 17);
+  transform: scale(1.100);
 }
 
 #container {
@@ -83,13 +88,17 @@ button:active {
   justify-content: center;
   flex-direction: column;
   padding: 20px;
-  margin: 20px;
+  margin: 50px;
   max-width: 250px;
   font-family: "Bangers";
 }
 
 .card:hover {
   transform: scale(1.200);
+  background-color: rgba(0, 0, 0, 0.243);
+  box-shadow: 5px 5px 10px  rgba(9, 9, 9, 0.467);
+
+  border-radius: 20px;
 }
 
 img {
